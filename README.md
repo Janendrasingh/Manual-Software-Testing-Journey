@@ -222,11 +222,11 @@ My approach:
 
 # 📈 Learning Progress
 
-| Module | Topic | Status |
+| Module | Topic |
 |---|---|---|
-| Module 1 | Software Testing Concepts | 🔄 In Progress |
-| Module 2 | Software Testing Project | ⏳ Upcoming |
-| Module 3 | Agile Testing + Jira | ⏳ Upcoming |
+| Module 1 | Software Testing Concepts | 
+| Module 2 | Software Testing Project | 
+| Module 3 | Agile Testing + Jira | 
 
 *Progress will be updated as I complete each topic.*
 
