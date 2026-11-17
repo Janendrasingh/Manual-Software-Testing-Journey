@@ -545,29 +545,24 @@ The tester performs Regression Testing to ensure the change has not broken exist
 
 ### Types of Regression Testing
 
-**1. Corrective Regression Testing**
+Testing conducts on modified build to make sure there will not be impact on
+existing functionality because of changes like adding/deleting/modifying features.
 
-Used when requirements have not changed and existing test cases can be reused.
+**1. Unit regression testing**
 
-**2. Retest-All Regression Testing**
+- Testing only the changes/modifications done by the developer.
 
-Executes the complete existing test suite.
+**2. Regional Regression Testing**
 
-**3. Selective Regression Testing**
+- Testing the modified module along with the impacted modules
+- Impact Analysis meeting conducts to identify impacted modules with QA & Dev.
 
-Executes selected test cases related to the changed functionality and its impact.
+**3. Full Regression**
 
-**4. Progressive Regression Testing**
+- Testing the main feature & remaining part of the application.
+- Ex: Dev has done changes in many modules, instead of identifying impacted modules,
+  we perform one round of full regression.
 
-Used when requirements or specifications have changed and new test cases are required.
-
-**5. Partial Regression Testing**
-
-Checks the changed component and its interactions with related components.
-
-**6. Complete Regression Testing**
-
-Tests the entire application to identify unintended effects of major changes.
 
 ### Advantages
 
